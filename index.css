@@ -13,7 +13,7 @@ body{
     display: flex;
     justify-content: space-between;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     z-index: 10;
     
 
@@ -126,6 +126,7 @@ button:focus {
     background-color: rgba(3, 41, 74,0.8);
     background-blend-mode: overlay;
     color: #FFFFFF;
+    width: 100vw;
     display: flex;
 }
 .HOME__logo{
@@ -201,6 +202,7 @@ padding-top: 100px;
 .ABOUT{
     background-color: whitesmoke;
     padding-bottom: 30px;
+    width: 100vw;
     
 }
 .ABOUT__h1{
@@ -305,6 +307,10 @@ padding-top: 100px;
    } */
 }
 
+.project{
+    width: 100vw;
+}
+
 
 /* .project{
      
@@ -343,6 +349,7 @@ padding-top: 100px;
     display: flex;
     margin: 4vw;
     height: 80vh;
+    
 
 }
 .project1__img{
@@ -401,6 +408,7 @@ padding-top: 100px;
     background-color: rgb(33, 54, 86); 
     background-blend-mode: overlay;
     padding: 200px;
+    width: 100vw;
     
 }
 .contact__h2{
@@ -482,6 +490,7 @@ padding-top: 100px;
 }
 .final{
     height:80%;
+    width: 100vw;
     background-color: #000000;
     color: #FFFFFF;
 }
