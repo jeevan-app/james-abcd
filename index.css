@@ -9,7 +9,7 @@ body{
 
 .parent{
     height: 10vh;
-    background-color: rgb(170, 27, 27);
+    background-color: rgb(230, 228, 228);
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -22,11 +22,13 @@ body{
     table{
         display: none;
     }
+   
 }
 @media(max-width: 576px){
     .parent__menu1{
         display: none;
     }
+   
    
     
 }
@@ -41,14 +43,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    padding-left: 3vw;
+    gap: 20px;
+    position: relative;
+    left: 3vw;
+    
 
 }
 .parent__img__img1{
     flex: 1;
-    height: 60px;
-    border-radius: 200px;
+    height: 8vh;
+    border-radius: 500px;
 }
 .parent__logo{
     flex: 1;
@@ -344,9 +348,7 @@ padding-top: 100px;
     .project__h1{
         font-size: 35px;
     }
-    .project1__img{
-        margin-top: 50px;
-    }
+   
     .project1__txt{
         padding: 20px;
     }
