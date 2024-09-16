@@ -9,7 +9,7 @@ body{
 
 .parent{
     height: 10vh;
-    background-color: rgb(225, 219, 219);
+    background-color: rgb(170, 27, 27);
     display: flex;
     justify-content: space-between;
     position: fixed;
