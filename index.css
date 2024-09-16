@@ -241,8 +241,8 @@ padding-top: 100px;
   
 }
 .ABOUT__me__skills{
-    
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
 }
 .ABOUT__me__skills__h4{
@@ -254,6 +254,9 @@ padding-top: 100px;
     padding: 5px;
 }
 @media(max-width:576px){
+    .ABOUT{
+        width: 100vw;
+    }
     .ABOUT__h1{
         font-size: 50px;
     }
