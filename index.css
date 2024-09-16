@@ -271,6 +271,9 @@ padding-top: 100px;
     .ABOUT__me{
         flex-direction: column;
     }
+    .ABOUT__me__demo{
+        flex-direction: column;
+    }
     .ABOUT__me__skills{
         gap: 20px;
     }
