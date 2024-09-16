@@ -141,8 +141,6 @@ button:focus {
    flex-direction: column;
    position: relative;
    left: -2%;
-
-   
 }
 .HOME__text{
 flex: 10;
@@ -161,8 +159,8 @@ padding-top: 100px;
 .HOME__P{
     font-size: 20px;
     text-align: justify;
-    padding-left: 15vw;
-    padding-right: 10vw;
+    
+ 
 }
 .marquee{
     border: 2px solid white;
@@ -182,6 +180,9 @@ padding-top: 100px;
     }
     .HOME{
         padding-bottom: 50px;
+    }
+    .HOME__P{
+        padding: 10px;
     }
     .ABOUT__h1{
         font-size: 40px;
