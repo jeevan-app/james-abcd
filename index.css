@@ -23,7 +23,7 @@ body{
         display: none;
     }
 }
-@media(max-width:768px){
+@media(max-width: 576px){
     .parent__menu1{
         display: none;
     }
@@ -171,7 +171,7 @@ padding-top: 100px;
     margin-top: 10%;
     margin-bottom: 5%;
 }
-@media(max-width:768px){
+@media(max-width:576px){
     .marquee{
         display: none;
 
@@ -243,7 +243,7 @@ padding-top: 100px;
 .ABOUT__me__skills{
     
     display: flex;
-    gap: 50px;
+    gap: 10px;
 }
 .ABOUT__me__skills__h4{
     border: 1px solid gray;
@@ -253,7 +253,7 @@ padding-top: 100px;
     color: gray;
     padding: 5px;
 }
-@media(max-width:768px){
+@media(max-width:576px){
     .ABOUT__h1{
         font-size: 50px;
     }
@@ -331,7 +331,7 @@ padding-top: 100px;
      padding: 0px 130px;
 
 }
-@media(max-width:768px){
+@media(max-width:576px){
     .project__p{
         padding: 20px;
     }
@@ -468,7 +468,7 @@ padding-top: 100px;
     border: 1px solid blue;
 
 }
-@media(max-width:768px){
+@media(max-width:576px){
     .contact__info{
         padding-left: 1px;
     }
@@ -532,7 +532,7 @@ padding-top: 100px;
     text-align: center;
     
 }
-@media(max-width:768px){
+@media(max-width:576px){
     .final__i{
         display: flex;
         justify-content: center;
@@ -580,7 +580,7 @@ padding-top: 100px;
     font-size: 1vw;
     border-radius: 5px;
 }
-@media(max-width:768px){
+@media(max-width:576px){
     .parent2__buttons{
         display: flex;
         flex-direction: column;
