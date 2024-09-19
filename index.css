@@ -159,6 +159,7 @@ padding-top: 100px;
 .HOME__P{
     font-size: 20px;
     text-align: justify;
+    padding: 50px;
     
  
 }
@@ -360,6 +361,13 @@ padding-top: 100px;
     height: 80vh;
     
 
+}@media(max-width:576px){
+    .project1__img{
+        display: flex;
+        position: relative;
+        left: 8vw;
+    }
+ 
 }
 .project1__img{
     flex: 1;
