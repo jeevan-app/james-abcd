@@ -388,6 +388,10 @@ padding-top: 100px;
         position: relative;
         left: 8vw;
     }
+    .project2__img{
+         display: flex;
+         justify-content: center;
+    }
  
 }
 .project1__img{
