@@ -21,11 +21,7 @@ body {
     display: none;
   }
 }
-@media (max-width: 576px) {
-  .parent__menu1 {
-    display: none;
-  }
-}
+
 @media (min-width: 576px) {
   .dropdown {
     display: none;
@@ -153,30 +149,7 @@ button:focus {
   margin-top: 10%;
   margin-bottom: 5%;
 }
-@media (max-width: 576px) {
-  .marquee {
-    display: none;
-  }
-  .HOME {
-    padding-bottom: 50px;
-  }
-  .HOME__P {
-    padding: 10px;
-  }
-  .ABOUT__h1 {
-    font-size: 40px;
-  }
-  .ABOUT__p {
-    font-size: 2vw;
-  }
-  .contact__button {
-    border-radius: 5px;
-    width: 20vw;
-  }
-  .HOME__b {
-    margin-bottom: 20px;
-  }
-}
+
 
 .ABOUT {
   background-color: whitesmoke;
@@ -239,68 +212,13 @@ button:focus {
   color: gray;
   padding: 5px;
 }
-@media (max-width: 576px) {
-  .ABOUT {
-    width: 100vw;
-  }
-  .ABOUT__h1 {
-    font-size: 50px;
-  }
-  .ABOUT__p {
-    font-size: 20px;
-    padding: 50px;
-  }
-  .ABOUT__me__hpb {
-    padding-right: 10px;
-  }
-  .ABOUT__me {
-    flex-direction: column;
-  }
-  .ABOUT__me__demo {
-    flex-direction: column;
-  }
-  .ABOUT__me__skills {
-    gap: 20px;
-  }
-  .ABOUT__me__h2 {
-    font-size: 40px;
-  }
-  .project1 {
-    flex-direction: column;
-  }
-  .project1__txt {
-    text-align: center;
-    padding-right: 10px;
-  }
 
-  .project1__txt__p {
-    color: gray;
-    display: flex;
-  }
-  .project1__button {
-    margin-left: 150px;
-  }
-  .project__p {
-    text-align: justify;
-    padding: 0px 10px 0px 20px;
-  }
-  .project1__p123 {
-    display: flex;
-    justify-content: center;
-  }
-  /* .project1__img{
-    display: flex;
-    justify-content: center;
-   } */
-}
 
 .project {
   width: 100vw;
 }
 
-/* .project{
-     
-} */
+
 
 .project__txt {
   text-align: center;
@@ -324,34 +242,14 @@ button:focus {
   color: gray;
   padding: 0px 130px;
 }
-@media (max-width: 576px) {
-  .project__p {
-    padding: 20px;
-  }
-  .project__h1 {
-    font-size: 35px;
-  }
 
-  .project1__txt {
-    padding: 20px;
-  }
-}
 .project1 {
   display: flex;
   margin: 4vw;
   height: 80vh;
+  gap: 20px;
 }
-@media (max-width: 576px) {
-  .project1__img {
-    display: flex;
-    position: relative;
-    left: 8vw;
-  }
-  .project2__img {
-    display: flex;
-    justify-content: center;
-  }
-}
+
 .project1__img {
   flex: 1;
   background-image: url("https://getlogo.net/wp-content/uploads/2020/04/bookmyshow-logo-vector.png");
@@ -366,11 +264,7 @@ button:focus {
   background-image: url("https://th.bing.com/th/id/OIP.ou9e0KlYG3s0Mplf51--TAHaEQ?w=293&h=180&c=7&r=0&o=5&pid=1.7 ");
   background-repeat: no-repeat;
   background-size: contain;
-  display: grid;
-  height: 50vh;
-  place-items: center;
-  position: relative;
-  left: 30px;
+
 }
 .project3__img {
   flex: 1;
@@ -393,13 +287,14 @@ button:focus {
 .project1__button {
   font-size: 16px;
   padding: 15px;
-  text-align: center;
   border-radius: 5px;
   color: white;
   background-color: #0062b9;
   text-decoration: none;
   position: relative;
-  top: 10%;
+  top: 5vw;
+  
+ 
 }
 .contact {
   background-image: url("common-bg.svg");
@@ -459,25 +354,7 @@ button:focus {
   border-radius: 5px;
   border: 1px solid blue;
 }
-@media (max-width: 576px) {
-  .contact__info {
-    padding-left: 1px;
-  }
-  .contact {
-    padding: 50px;
-    margin-top: 20px;
-  }
-  .contact__p {
-    font-size: 20px;
-  }
-  .project1__button {
-    margin-bottom: 20px;
-    border: 1px solid blue;
-  }
-  .submit__button__b {
-    flex-grow: 1;
-  }
-}
+
 .final {
   height: 80%;
   width: 100vw;
@@ -513,16 +390,7 @@ button:focus {
 .copyright {
   text-align: center;
 }
-@media (max-width: 576px) {
-  .final__i {
-    display: flex;
-    justify-content: center;
-  }
-  .final__content {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-}
+
 .parent2 {
   margin: 8vw;
   margin-left: 15vw;
@@ -555,6 +423,126 @@ button:focus {
   border-radius: 5px;
 }
 @media (max-width: 576px) {
+  .parent__menu1 {
+    display: none;
+  }
+  .marquee {
+    display: none;
+  }
+  .HOME {
+    padding-bottom: 50px;
+  }
+  .HOME__P {
+    padding: 10px;
+  }
+  .ABOUT__h1 {
+    font-size: 40px;
+  }
+  .ABOUT__p {
+    font-size: 2vw;
+  }
+  .contact__button {
+    border-radius: 5px;
+    width: 20vw;
+  }
+  .HOME__b {
+    margin-bottom: 20px;
+  }
+  .ABOUT {
+    width: 100vw;
+  }
+  .ABOUT__h1 {
+    font-size: 50px;
+  }
+  .ABOUT__p {
+    font-size: 20px;
+    padding: 50px;
+  }
+  .ABOUT__me__hpb {
+    padding-right: 10px;
+  }
+  .ABOUT__me {
+    flex-direction: column;
+  }
+  .ABOUT__me__demo {
+    flex-direction: column;
+  }
+  .ABOUT__me__skills {
+    gap: 20px;
+  }
+  .ABOUT__me__h2 {
+    font-size: 40px;
+  }
+  .project1 {
+    flex-direction: column;
+  }
+  .project1__txt {
+    text-align: center;
+    padding-right: 10px;
+  }
+
+  .project1__txt__p {
+    color: gray;
+    text-align: justify;
+  }
+  .project1__button {
+    
+  }
+  .project__p {
+    text-align: justify;
+    padding: 0px 10px 0px 20px;
+  }
+  .project1__p123 {
+    display: flex;
+    justify-content: center;
+  }
+  .project__p {
+    padding: 20px;
+  }
+  .project__h1 {
+    font-size: 35px;
+  }
+
+  .project1__txt {
+    padding: 20px;
+  }
+  .project1__img {
+    display: flex;
+    position: relative;
+    left: 8vw;
+  }
+  .project2__img {
+    display: flex;
+    position: relative;
+    left: 15vw;
+ 
+  }
+  .contact__info {
+    padding-left: 1px;
+  }
+  .contact {
+    padding: 50px;
+    margin-top: 20px;
+  }
+  .contact__p {
+    font-size: 20px;
+  }
+  .project1__button {
+    margin-bottom: 20px;
+    border: 1px solid blue;
+    
+  }
+  .submit__button__b {
+    flex-grow: 1;
+  }
+  .final__i {
+    display: flex;
+    justify-content: center;
+  }
+  .final__content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
   .parent2__buttons {
     display: flex;
     flex-direction: column;
