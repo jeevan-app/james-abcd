@@ -214,11 +214,6 @@ button:focus {
 }
 
 
-.project {
-  width: 100vw;
-}
-
-
 
 .project__txt {
   text-align: center;
@@ -246,34 +241,41 @@ button:focus {
 .project1 {
   display: flex;
   margin: 4vw;
-  height: 80vh;
+ 
   gap: 20px;
 }
 
 .project1__img {
   flex: 1;
-  background-image: url("https://getlogo.net/wp-content/uploads/2020/04/bookmyshow-logo-vector.png");
-  background-repeat: no-repeat;
-  background-size: contain;
   display: grid;
-  height: 50vh;
   place-items: center;
+  /* background-image: url("https://getlogo.net/wp-content/uploads/2020/04/bookmyshow-logo-vector.png");
+  background-repeat: no-repeat;
+  background-size: contain; */
+ 
+}
+.project__left{
+  width: 80%;
+  display: block;
+  object-fit: cover;
 }
 .project2__img {
   flex: 1;
-  background-image: url("https://th.bing.com/th/id/OIP.ou9e0KlYG3s0Mplf51--TAHaEQ?w=293&h=180&c=7&r=0&o=5&pid=1.7 ");
+  display: grid;
+  place-items: center;
+  /* background-image: url("https://th.bing.com/th/id/OIP.ou9e0KlYG3s0Mplf51--TAHaEQ?w=293&h=180&c=7&r=0&o=5&pid=1.7 ");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: contain; */
 
 }
 .project3__img {
   flex: 1;
-  background-image: url("project-mockup-example.jpeg");
-  background-repeat: no-repeat;
-  background-size: contain;
   display: grid;
-  height: 50vh;
   place-items: center;
+  /* background-image: url("project-mockup-example.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain; */
+ 
 }
 .project1__txt {
   flex: 1;
@@ -485,9 +487,7 @@ button:focus {
     color: gray;
     text-align: justify;
   }
-  .project1__button {
-    
-  }
+ 
   .project__p {
     text-align: justify;
     padding: 0px 10px 0px 20px;
