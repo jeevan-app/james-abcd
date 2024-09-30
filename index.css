@@ -66,6 +66,10 @@ td {
   border: 2px solid white;
   border-collapse: collapse;
   position: relative;
+  
+}
+td i{
+  color: #f0f0f0;
 }
 .dropdown__content {
   display: none;
@@ -209,7 +213,7 @@ button:focus {
   border: 1px solid gray;
   font-size: 20px;
   border-radius: 10px;
-  display: flex;
+  
   color: gray;
   padding: 5px;
 }
@@ -251,9 +255,7 @@ button:focus {
   flex: 1;
   display: grid;
   place-items: center;
-  /* background-image: url("https://getlogo.net/wp-content/uploads/2020/04/bookmyshow-logo-vector.png");
-  background-repeat: no-repeat;
-  background-size: contain; */
+ 
  
 }
 .project__left{
@@ -265,18 +267,14 @@ button:focus {
   flex: 1;
   display: grid;
   place-items: center;
-  /* background-image: url("https://th.bing.com/th/id/OIP.ou9e0KlYG3s0Mplf51--TAHaEQ?w=293&h=180&c=7&r=0&o=5&pid=1.7 ");
-  background-repeat: no-repeat;
-  background-size: contain; */
+ 
 
 }
 .project3__img {
   flex: 1;
   display: grid;
   place-items: center;
-  /* background-image: url("project-mockup-example.jpeg");
-  background-repeat: no-repeat;
-  background-size: contain; */
+
  
 }
 .project1__txt {
