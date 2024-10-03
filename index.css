@@ -428,6 +428,16 @@ button:focus {
   border-radius: 5px;
 }
 @media (max-width: 576px) {
+  * {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+  }
+  body {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+  }
   .parent__menu1 {
     display: none;
   }
@@ -438,7 +448,7 @@ button:focus {
     padding-bottom: 50px;
   }
   .HOME__P {
-    padding: 10px;
+    padding: 20px;
   }
   .ABOUT__h1 {
     font-size: 40px;
@@ -466,6 +476,9 @@ button:focus {
   .ABOUT__me__hpb {
     padding-right: 10px;
   }
+  .ABOUT__me__p{
+    padding-right: 20px;
+  }
   .ABOUT__me {
     flex-direction: column;
   }
@@ -488,7 +501,7 @@ button:focus {
 
   .project1__txt__p {
     color: gray;
-    text-align: center;
+    text-align: justify;
   }
  
   .project__p {
